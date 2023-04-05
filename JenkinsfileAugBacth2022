@@ -1,6 +1,6 @@
 @Library('sharedlibsmss') _
 node{
-
+# lets use the try-catch to catch errors  if any
 try{
 
   sendSlackNotifications('STARTED')
